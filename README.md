@@ -19,25 +19,22 @@ En el archivo internet.xlsx.
 - Totales Accesos por rango y Accesos por rangos: Si bien pueden ofrecer datos útiles, podrían ser redundantes si ya tenemos los datos de velocidad sin rangos y acceso por localidad.
 
 # EDA. La conectividad en la Republica Argentina: inversiones Net#
-La empresa Net#, multinacional dedicada al servicio de internet por fibra optica esta buscando invertir en Argentina. A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones. Despues de realizar la tranformación de los datos, que ya estaban bastantes ordenados, empieza dicho análisis a través de preguntas. 
-Las preguntas que se realiza son ¿En qué zonas conviene invertir? ¿Qué acceso existe a internet en dicho pais? ¿Qué tecnologías de comunicación predominan más? ¿Cual es la velocidad que se recomienda implementar?  Todas estas preguntas estan en función al negocio que la empresa prentende invertir.
+La empresa Net#, multinacional dedicada al servicio de internet por fibra optica esta buscando invertir en Argentina. A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones.
 
+Las preguntas que nos realizaremos es ¿En qué zonas conviene invertir? ¿Qué acceso existe a internet en dicho pais? ¿Qué tecnologías de comunicación predominan más? ¿Cual es la velocidad que se recomienda implementar?  Todas estas preguntas estan en función al negocio que la empresa tiene en función a futuras e inminentes inversiones.
 Para ello contrata a un analista de datos que realizará un análisis exploratorio de los datos con el dataset proporcionado. 
-El analista entre muchas variables y opciones de analisis decide tomar las siguientes variables: Velocidad, accesos, provincias, ingresos, tecnologías, provincias. A partir de estas variables desarrollará los análisis en los siguientes puntos con sus respectivos análisis/insight. 
+El analista entre muchas variables y opciones de analisis decide tomar las siguientes variables: Velocidad, accesos, provincias y tecnologías. A partir de estas variables desarrollará los análisis en los siguientes puntos con sus respectivos análisis/insight. 
 
-Para más información leer EDA.ipynb 
 1. Resumen estadístico general de velocidad y accesos: análisis de las medidas como la media, mediana, máximo, mínimo y desviación estándar.
-2. Resumen estadistico por provincia de velocidad y accesos.
-3. Análisis de correlación: evaluaré la relación entre las variables numéricas.
-4. Distribución de datos Velocidad, Accesos, ADSL, Cablemodem, fibra óptica y Ingresos.
-5. Accesos vs Velocidad
-6. Distribución de Accesos por Cuartiles de Velocidad
-7. Accesos por Tecnología: ADSL, Cablemodem y fibra optica
-8. Ingresos vs. Velocidad
-9. Valores típicos y comunes: análisis de frecuencias en las variables categóricas y estadísticas en las variables numéricas.
-10. Valores inusuales: detección de valores atípicos.
-11. Valores faltantes: revisión de la cantidad y ubicación de valores nulos en el conjunto de datos.
-12. Acceso total y la velocidad promedio por provincia
+2. Análisis de correlación: evaluaré la relación entre las variables numéricas.
+3. Distribución de datos Velocidad, Accesos, ADSL, Cablemodem y fibra óptica.
+4. Accesos vs Velocidad
+5. Distribución de Accesos por Cuartiles de Velocidad
+6. Accesos por Tecnología: ADSL, Cablemodem y fibra optica.
+7. Valores típicos y comunes: análisis de frecuencias en las variables categóricas y estadísticas en las variables numéricas.
+8. Valores inusuales: detección de valores atípicos.
+9. Valores faltantes: revisión de la cantidad y ubicación de valores nulos en el conjunto de datos.
+10. Acceso total y la velocidad promedio por provincia
 
 Conclusiones del EDA
 - Los usuarios se encuentran en el rango de velocidades bajas debido a limitaciones tecnologicas o economicas. 
