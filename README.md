@@ -1,7 +1,7 @@
 # README. TP 2. Jerónimo Martinez
 Presentación.
 
-Net# es una empresa Uruguaya, con alcance  multinacional, con sedes en: Brasil, Paraguay y chile. NET# es una empresa dedicada al servicio de internet por fibra optica reconocida por la fuerte inversión en esta tecnología y por la velocidad del servicio. A NET# non solo le mueve el hambre comercial sino tambien ve su misión empresarial como una costructura de relaciones, vinculos y negocios mediante el acceso a internet. 
+Net# es una empresa Uruguaya, con alcance  multinacional, con sedes en: Brasil, Paraguay y chile. NET# es una empresa dedicada al servicio de internet por fibra optica reconocida por la fuerte inversión en esta tecnología y por la velocidad del servicio. A NET# no solo le mueve el hambre comercial sino tambien tienen en cuenta su misión empresarial como una costructura de relaciones, vinculos y negocios mediante el acceso a internet. Por este motivo también incentiva la inclusión mediante el acceso a internet.  
 Cabe destacar que NET# esta en pleno auge financiero y organizacional; De manera esta interesado en  llevar el negocio e invertir en Argentina. 
 A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones para conocer la demanda, los cometidores, los niveles de acceso a internet y la velocidad de la misma en el territorio. 
 
