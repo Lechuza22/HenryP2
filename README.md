@@ -36,7 +36,7 @@ El analista entre muchas variables y opciones de analisis decide tomar las sigui
 9. Valores faltantes: revisión de la cantidad y ubicación de valores nulos en el conjunto de datos.
 10. Acceso total y la velocidad promedio por provincia
 
-Analisis final EDA
+Análisis final EDA
 - Los usuarios se encuentran en el rango de velocidades bajas debido a limitaciones tecnologicas o economicas. 
 - Las tecnologicas adsl cable moden son más estables y la fibra optica parece estar en expanción, pero hay brecha en la infraestructura, que esta en transición. Es decir, en las zonas más densamente probladas y desarrolladas existe más fibra optica que en las rurales. 
 - Los usuarios prefieren mayor velocidad y estabilidad: fibra optica es una opción posible. 
