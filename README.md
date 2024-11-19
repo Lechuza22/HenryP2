@@ -2,29 +2,32 @@
 Presentación.
 
 Net# es una empresa Uruguaya, con alcance  multinacional, con sedes en: Brasil, Paraguay y chile. NET# es una empresa dedicada al servicio de internet por fibra optica reconocida por la fuerte inversión en esta tecnología y por la velocidad del servicio. A NET# no solo le mueve el hambre comercial sino tambien tienen en cuenta su misión empresarial como una costructura de relaciones, vinculos y negocios mediante el acceso a internet. Por este motivo también incentiva la inclusión mediante el acceso a internet.  
-Cabe destacar que NET# esta en pleno auge financiero y organizacional; De manera esta interesado en  llevar el negocio e invertir en Argentina. 
-A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones para conocer la demanda, los cometidores, los niveles de acceso a internet y la velocidad de la misma en el territorio. 
+Cabe destacar que NET# esta en pleno auge financiero y organizacional; De manera  que la empresa esta interesada en  llevar el negocio e invertir en Argentina. 
+A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones para conocer la demanda, los competidores, los niveles de acceso a internet y la velocidad de la misma en el territorio. 
+Para este trabajo es indispensable la visión y la competencia de un analista de datos, del cual quién escribe, es resonsable del mismo: analizar y transoformar los datos duros, realizar un analisis exploratorio de los datos en base a la demanda de la empresa; y la presentación de un dashboard explicado desde un storytelling que ilustra dicha presentación. 
+La finalidad de todo esto es que el negocio sea rentable y se lleve a cabio la misión y visión empresarial.  
+Ahora si vamos al trabajo. 
 
 # Tranformación de los datos 
-Para más ver en Normalización.ipynb
-En el archivo internet.xlsx.
-1. Creamos el archivo Normalización.ipynb, y alli con pandas eliminamos de columnas sin nombres y con datos en null de cada una de las hojas del archivo "Internet.xlsx". Luego exportamos al archivo "Internet_limpio.xlsx"
-2. En PowerBi importamos "Internet_Limpio" para seguir alli la tranformación de los datos.
-3. Revisamos las columnas que contienen errores que aparecen en la hoja "acceso por tecnología" y Acc_vel_Loc_sinrango
+Para más en profundidad el proceoso ver en: Normalización.ipynb
+
+Paso a paso: UItilizamos el archivo internet.xlsx. el cual lo obtuvimos de la página del Ente Nacional de Comunicaciones (ENACOM) de Argentina. La ENACOM es el organismo regulador de las telecomunicaciones en Argentina, responsable de la regulación y control de los servicios de comunicación en el país. 
+1. Creamos el archivo Normalización.ipynb, y alli con pandas eliminamos de columnas sin nombres y con datos en null de cada una de las hojas del archivo "Internet.xlsx". 
+2. Revisamos las columnas que contienen errores que aparecen en la hoja "acceso por tecnología" y Acc_vel_Loc_sinrango
     - Columna años se reemplazo los errores por el año 2019, siguiendo la lógica de los datos. 
     - Columna Trimestre se reemplazo los errores por el trimestre 4, siguiendo la lógica de los datos. 
     - Columna Velocidad, se reemplazo errores con el valor 6357120, siguiendo la logica de los datos. 
-4. Revisamos la hoja dial_baf, en la columna dial_up y registramos algunos datos nulos correspondientes a dos provincias: formosa y misiones. Por logica de los datos y por ser un volumen insignificante decidí revalorar en 0 los datos vacios/null.
-5. Pero para una optmización de los recursos y para no ser tan abarcativo decidí eliminar las siguientes tabas: 
+3. Revisamos la hoja dial_baf, en la columna dial_up y registramos algunos datos nulos correspondientes a dos provincias: formosa y misiones. Por logica de los datos y por ser un volumen insignificante decidí revalorar en 0 los datos vacios/null.
+4. Pero para una optmización de los recursos y para no ser tan abarcativo decidí eliminar las siguientes tabas: 
 - Dial-BAf y Totales Dial-BAf: Estas hojas contienen datos más específicos sobre conexiones dial-up o tecnologías menos utilizadas, que no son tan representativas en un análisis de conectividad actual.
 - Totales Accesos por rango y Accesos por rangos: Si bien pueden ofrecer datos útiles, podrían ser redundantes si ya tenemos los datos de velocidad sin rangos y acceso por localidad.
 
 # EDA. La conectividad en la Republica Argentina: inversiones Net#
+Aclaración: el desarrollo del EDA se encuentra en el archivo EDA.opynb 
 La empresa Net#, multinacional dedicada al servicio de internet por fibra optica esta buscando invertir en Argentina. A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones.
 
-Las preguntas que nos realizaremos es ¿En qué zonas conviene invertir? ¿Qué acceso existe a internet en dicho pais? ¿Qué tecnologías de comunicación predominan más? ¿Cual es la velocidad que se recomienda implementar?  Todas estas preguntas estan en función al negocio que la empresa tiene en función a futuras e inminentes inversiones.
-Para ello contrata a un analista de datos que realizará un análisis exploratorio de los datos con el dataset proporcionado. 
-El analista entre muchas variables y opciones de analisis decide tomar las siguientes variables: Velocidad, accesos, provincias y tecnologías. A partir de estas variables desarrollará los análisis en los siguientes puntos con sus respectivos análisis/insight. 
+Las preguntas de las cuales parte la empresa son ¿En qué zonas conviene invertir? ¿Qué acceso existe a internet en dicho pais? ¿Qué tecnologías de comunicación predominan más? ¿Cual es la velocidad que se recomienda implementar? ¿Cuáles son las provicias con mayor demanda y cuales con mayor necesidad de inversión? Todas estas preguntas estan en función al negocio que la empresa tiene en función a futuras e inminentes inversiones.
+El analista, quién escribre, entre muchas variables y opciones de analisis decide tomar las siguientes variables: Velocidad, accesos, provincias y tecnologías. A partir de estas variables desarrollará los análisis en los siguientes puntos con sus respectivos análisis/insight. 
 
 1. Resumen estadístico general de velocidad y accesos: análisis de las medidas como la media, mediana, máximo, mínimo y desviación estándar.
 2. Análisis de correlación: evaluaré la relación entre las variables numéricas.
