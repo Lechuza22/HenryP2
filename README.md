@@ -23,7 +23,9 @@ Paso a paso: UItilizamos el archivo internet.xlsx. el cual lo obtuvimos de la p�
 - Totales Accesos por rango y Accesos por rangos: Si bien pueden ofrecer datos útiles, podrían ser redundantes si ya tenemos los datos de velocidad sin rangos y acceso por localidad.
 
 # EDA. La conectividad en la Republica Argentina: inversiones Net#
+
 Aclaración: el desarrollo del EDA se encuentra en el archivo EDA.opynb 
+
 La empresa Net#, multinacional dedicada al servicio de internet por fibra optica esta buscando invertir en Argentina. A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones.
 
 Las preguntas de las cuales parte la empresa son ¿En qué zonas conviene invertir? ¿Qué acceso existe a internet en dicho pais? ¿Qué tecnologías de comunicación predominan más? ¿Cual es la velocidad que se recomienda implementar? ¿Cuáles son las provicias con mayor demanda y cuales con mayor necesidad de inversión? Todas estas preguntas estan en función al negocio que la empresa tiene en función a futuras e inminentes inversiones.
