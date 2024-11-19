@@ -1,10 +1,18 @@
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5c277d51-711c-4f4a-8c56-3815e747528c" width="25%">
+</p>
+
+
 # README. TP 2. Jerónimo Martinez
 Presentación.
 
 Net# es una empresa Uruguaya, con alcance  multinacional, con sedes en: Brasil, Paraguay y chile. NET# es una empresa dedicada al servicio de internet por fibra optica reconocida por la fuerte inversión en esta tecnología y por la velocidad del servicio. A NET# no solo le mueve el hambre comercial sino tambien tienen en cuenta su misión empresarial como una costructura de relaciones, vinculos y negocios mediante el acceso a internet. Por este motivo también incentiva la inclusión mediante el acceso a internet.  
+
 Cabe destacar que NET# esta en pleno auge financiero y organizacional; De manera  que la empresa esta interesada en  llevar el negocio e invertir en Argentina. 
 A raiz de esto acude a los datos que proporciona el gobierno sobre telecomunicaciones para conocer la demanda, los competidores, los niveles de acceso a internet y la velocidad de la misma en el territorio. 
+
 Para este trabajo es indispensable la visión y la competencia de un analista de datos, del cual quién escribe, es resonsable del mismo: analizar y transoformar los datos duros, realizar un analisis exploratorio de los datos en base a la demanda de la empresa; y la presentación de un dashboard explicado desde un storytelling que ilustra dicha presentación. 
+
 La finalidad de todo esto es que el negocio sea rentable y se lleve a cabio la misión y visión empresarial.  
 Ahora si vamos al trabajo. 
 
@@ -43,6 +51,7 @@ El analista, quién escribre, entre muchas variables y opciones de analisis deci
 10. Acceso total y la velocidad promedio por provincia
 
 Análisis final EDA
+
 - Los usuarios se encuentran en el rango de velocidades bajas debido a limitaciones tecnologicas o economicas. 
 - Las tecnologicas adsl cable moden son más estables y la fibra optica parece estar en expanción, pero hay brecha en la infraestructura, que esta en transición. Es decir, en las zonas más densamente probladas y desarrolladas existe más fibra optica que en las rurales. 
 - Los usuarios prefieren mayor velocidad y estabilidad: fibra optica es una opción posible. 
@@ -70,7 +79,6 @@ Este KPI nos permite: Identificar brechas: Provincias con baja cobertura de fibr
 También nos permite medir el progreso y Verificar cómo cambia la cobertura a medida que se implementa fibra óptica en nuevas localidades.
 Y sobre todo nos permite tomar decisiones estratégicas, es decir, ayudar a los equipos de planificación a enfocar los recursos donde más se necesitan.
 - Conclusiones y recomendaciones (final del storyTelling)
-
 
 # Storytelling: Evaluación del Mercado para la Inversión en Fibra Óptica en Argentina
 
